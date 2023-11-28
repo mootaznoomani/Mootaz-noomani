@@ -1,8 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background: rgb(41,56,255);
-background: linear-gradient(100deg, rgba(41,56,255,1) 19%, rgba(41,121,255,1) 74%);
-  
+    background:Url('https://t3.ftcdn.net/jpg/02/24/64/56/360_F_224645618_dtpq1bEjnN67g3gampm39hg698AUC9tf.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+
   }
   
   .container {
@@ -44,7 +45,8 @@ background: linear-gradient(100deg, rgba(41,56,255,1) 19%, rgba(41,121,255,1) 74
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
-    margin-top: 40px;
+    
+
   }
   
   .cart-items {
