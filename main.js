@@ -59,7 +59,8 @@ $('#login').on('click', function() {
   } else {
     $('#password').css({'border-color': 'red'});
     $('#address').css({'border-color': 'red'});
-    $('#erreur').append('<p>Address or Password incorrect')
+    $('p').empty();
+    $('#erreur').append('<p>Email or Password incorrect');
   }
 });
 
